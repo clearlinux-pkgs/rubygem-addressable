@@ -4,7 +4,7 @@
 #
 Name     : rubygem-addressable
 Version  : 2.3.8
-Release  : 5
+Release  : 6
 URL      : https://rubygems.org/downloads/addressable-2.3.8.gem
 Source0  : https://rubygems.org/downloads/addressable-2.3.8.gem
 Summary  : No detailed summary available
