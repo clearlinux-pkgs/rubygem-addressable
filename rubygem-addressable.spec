@@ -4,7 +4,7 @@
 #
 Name     : rubygem-addressable
 Version  : 2.4.0
-Release  : 8
+Release  : 9
 URL      : https://rubygems.org/downloads/addressable-2.4.0.gem
 Source0  : https://rubygems.org/downloads/addressable-2.4.0.gem
 Summary  : No detailed summary available
