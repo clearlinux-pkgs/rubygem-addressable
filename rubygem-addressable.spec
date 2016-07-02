@@ -4,7 +4,7 @@
 #
 Name     : rubygem-addressable
 Version  : 2.4.0
-Release  : 10
+Release  : 11
 URL      : https://rubygems.org/downloads/addressable-2.4.0.gem
 Source0  : https://rubygems.org/downloads/addressable-2.4.0.gem
 Summary  : No detailed summary available
@@ -36,6 +36,7 @@ gem unpack %{SOURCE0}
 gem spec %{SOURCE0} -l --ruby > rubygem-addressable.gemspec
 
 %build
+export LANG=C
 gem build rubygem-addressable.gemspec
 
 %install
@@ -58,6 +59,7 @@ cp -pa .%{_bindir}/* \
 fi
 
 %check
+export LANG=C
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost
